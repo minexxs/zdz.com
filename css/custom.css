@@ -1,0 +1,49 @@
+.box{
+    width: 100%;
+    margin: 20px auto;
+}
+.tab{
+        width: 400px;
+        height: 50px;
+        border-bottom: 1px solid #000;
+    }
+.tab li {
+
+        width: 200px;
+        height: 50px;
+        margin: 0px 62px;
+        background-color: #fff;
+        text-align: center;
+        line-height: 50px;
+        float: left;
+        box-sizing: border-box;
+        cursor: pointer;
+        background-color:#b0b0b0;
+        color: #000;
+        font-size: 18px;
+    }
+
+.tab .current{
+        color: #fff;
+        background-color: #913892 !important;
+  }
+  .content div{
+    width: 100%;
+    height: 379px;
+    display: none;
+  }
+  .content .pic{
+    display: block;
+  }
+  .content div li{
+        width: 290px;
+        text-align: center;
+        line-height: 200px;
+        float: left;
+         overflow: hidden;
+         margin: 37px 20px;
+    }
+    .content li img{
+        width: 100%;
+        display: block;
+    }

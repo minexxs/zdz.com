@@ -1,0 +1,53 @@
+
+/* <!-- 均味E --> */
+.first{
+	width: 100%;
+
+}
+.first  h3{
+	margin-top: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	margin-left: 40px;
+	
+}.first .first_c .fix{
+	height: 350px;
+	margin-top: 20px;
+	border-bottom: 1px solid #9f9f9f;
+}
+.first .first_c .fix .left{
+	width: 300px;
+	height: 300px;
+	margin-top: 40px;
+	float: left;
+}
+.first .first_c .fix .left img{
+	display: block;
+	width: 100%;
+	transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+.first .first_c .fix .left img:hover{
+	transform: scale(1.2, 1.2);
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+.first .first_c .fix .right{
+
+	float: left;
+	margin-left: 108px;
+	font-size: 14px;
+	
+}
+.first .first_c .fix .right li{
+	margin: 10px;
+
+}
+
+
+

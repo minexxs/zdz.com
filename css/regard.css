@@ -1,0 +1,83 @@
+.box{
+	width: 100%;
+}
+.box .box_c{
+	text-align: center;
+}
+.box .box_c span{
+	font-size: 18px;
+    font-family: 楷体;
+	display: inline-block;
+	width: 100px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	background-color: #b0b0b0;
+	margin: 20px;
+}
+.box .box_c .s1{
+	color: #fff;
+	background-color: #b62eb6;
+}
+.referral h3{
+	margin-top: 20px;
+	font-size: 16px;
+
+}
+.referral .firm{
+ 	width: 100%;
+}
+.referral .firm .left{
+	 width: 210px;
+	float: left;
+}
+.referral .firm img{
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+
+}
+.referral .firm .right{
+	float: right;
+}
+.referral .firm .right p{
+	font-size: 15px;
+	margin: 20px 0px;
+}
+
+.referral .firm .right .r1{
+	margin-top: 40px;
+}
+.referral .firm .right .r2{
+	margin-top: 40px;
+}
+
+.referral .firm .right .r3{
+	margin-top: 10px;
+}
+.referral .fx{
+	width: 100%;
+}
+.referral .fx  .left{
+	float: left;
+}
+.referral .fx .right{
+	margin-top: 10px;
+	float: left;
+	font-size: 15px;
+}
+.referral .fx .right p{
+	margin: 25px 50px;
+}
+
+
+.referral .fix p{
+	font-size: 15px;
+	margin:  15px 0px;
+}
+.referral .fix .p2{
+	margin-top: 50px;
+}
+.referral .fix .p3{
+	margin-top: 50px;
+}

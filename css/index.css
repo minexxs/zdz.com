@@ -1,0 +1,324 @@
+.center{
+	width: 1000px;
+	margin: 0 auto;
+}
+.top{
+	height: 127px;
+	background-color: rgba(255,255,255,0.1);
+    width: 100%;
+    z-index: 12;
+    position: absolute;
+
+	
+}
+.top .top_c{
+	height: 127px;
+}
+.top .top_c .logo{
+	 float: left;
+	 width: 103px;
+    height: 128px;
+    display: block;
+    line-height: 127px;
+    background: url(../images/logo.png)no-repeat 0px 11px/143px 124px;
+}
+.top .top_c ul{
+	float: right;
+
+}
+.top .top_c ul li{
+	float: left;
+	line-height: 127px;
+	font-family: 楷体;
+	margin: 0px 25px;
+	font-size: 18px;
+}
+.top .top_c ul li a{
+	color: #000;
+	font-weight: 900;
+}
+.top .top_c ul li a:hover{
+	color: red;
+	margin-bottom: 5px;
+	border-bottom: 4px solid #b664b6;
+}
+/*滚动时的固定定位*/
+.fixed {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background-color: rgba(255,255,255,0.4);
+		z-index: 13;
+	    box-shadow: 0px 2px 17px #9f9f9f;
+	}
+
+/*轮播图*/
+.slider {
+			height: 685px;
+			position: relative;
+			border-bottom: 4px solid #9f9f9f;
+}
+
+.slider li {
+			position: absolute;
+			/*display: none;*/
+}
+.slider li img{
+		height: 685px;
+		width: 100%;
+
+}
+.slider li:first-child {
+			display: block;
+}
+
+
+
+.arrow {
+			display: none;
+}
+.slider:hover .arrow {
+			display: block;
+}
+.arrow-left,
+.arrow-right {
+			font-family: "SimSun", "宋体";
+			width: 30px;
+			height: 60px;
+			background-color: rgba(0, 0, 0, 0.1);
+			position: absolute;
+			top: 50%;
+			margin-top: -30px;
+			cursor: pointer;
+			text-align: center;
+			line-height: 60px;
+			color: #fff;
+			font-weight: 700;
+			font-size: 30px;
+}
+.arrow-left:hover,
+.arrow-right:hover {
+			background-color: rgba(0, 0, 0, .5);	
+}
+
+.arrow-left {
+			left: 0;
+			top: 50%;
+}
+
+.arrow-right {
+			right: 0;
+			top: 50%;
+}
+
+/*产品中心*/
+.Products{
+  margin-top: 4px;
+	height: 616px;
+	width: 100%;
+	background-color: #e6e6e6;
+}
+.Products h1{
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: #b481b5;
+}
+.Products h1 a{
+	color: #b481b5;
+}
+.Products h1 a:hover{
+	color: #902424;
+}
+.Products_c {
+	height: 450px;
+	background-color: #e6e6e6;
+}
+.Products_c .caddy{
+	float: left;
+  width: 413px;
+  height: 291px;
+    margin-top: 51px;
+
+}
+.Products_c .caddy img{
+	width: 100%;
+	display: block;
+	 transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+.Products_c .caddy img:hover{
+	 transform: scale(1.2, 1.2);
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+.Products_c .danbo{
+	padding: 0 34px;
+	margin-top: 51px;
+	float: right;
+	width: 210px;
+	height: 291px;
+
+}
+.Products_c .danbo img{
+	height: 291px;
+	width: 100%;
+	display: block;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease;
+
+}
+.Products_c .danbo img:hover{
+    transform: scale(1.2, 1.2);
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+
+
+
+/*定制案例*/
+.CustomCase{
+	margin-top:4px;
+    height: 616px;
+	width: 100%;
+	background-color: #e6e6e6;
+}
+.CustomCase h1{
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: #b481b5;
+}
+.CustomCase h1 a{
+	color: #b481b5;
+}
+.CustomCase h1 a:hover{
+	color: #902424;
+}
+.CustomCase_c {
+	height: 450px;
+}
+.CustomCase_c .danbo2{
+	margin: 0px 20px;
+    padding: 0px 7px;
+    margin-top: 51px;
+    float: left;
+    width: 274px;
+    height: 372px;
+
+}
+.CustomCase_c .danbo2 img{
+	width: 100%;
+	display: block;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease;
+
+}
+.CustomCase_c .danbo2 img:hover{
+    transform: scale(1.2, 1.2);
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+.CustomCase_c .danbo2  h3{
+	border-left:4px solid #913892;
+	float: left;
+	font-size: 18px;
+	height: 44px;
+	line-height: 44px;
+	
+}
+.CustomCase_c .danbo2  span{
+	
+	height: 44px;
+	line-height: 44px;
+	float: right;
+}
+.CustomCase_c .danbo2  span a{
+	   font-size: 14px;
+}
+.CustomCase_c .danbo2  span a:hover{
+	color: red;
+}
+/*底部*/
+.foot{
+	height: 323px;
+	position: relative;
+}
+.foot h1{
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+.foot h1 a{
+		color: #b481b5;
+}
+.foot h1 a:hover{
+	color: red;
+}
+.foot_c .BottomNav{
+
+	margin-left: 150px;
+}
+.foot_c .BottomNav h2{
+	margin-left: 10px;
+}
+.foot_c .BottomNav ul{
+	float: left;
+}
+.foot_c .BottomNav li{
+	margin: 10px;
+}
+.foot_c .BottomNav li a:hover{
+	color: #b62eb6;
+}
+.foot_c .BottomNav li a{
+	font-size: 14px;
+	color: #000;
+}
+.foot_c .BottomNav .QRcode{
+	position: absolute;
+    top: 102px;
+    right: 148px;
+	width: 176px;
+	height: 250px;
+	margin-right: 150px;
+}
+.foot_c .BottomNav .QRcode img {
+	width: 100%;
+}
+/*小尾巴*/
+.bottom{
+	background-color: #000;
+	height: 44px;
+}
+.bottom_c{
+	line-height: 44px;
+	height: 44px;
+}
+.bottom_c a{
+	color: #fff;
+
+}
+.bottom_c a:hover{
+	color: red;
+}
+.bottom_c .left{
+	float: left;
+}
+.bottom_c .right{
+	float: right;
+}
